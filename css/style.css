@@ -45,7 +45,9 @@ body {
 	height: 300px;
 	background: #7cb43e;
 }
-
+#blank {
+	margin-top: 80px;
+}
 #addedItems .item {
 	 color: white;
 	 padding: 0;

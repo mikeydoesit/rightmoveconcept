@@ -56,7 +56,8 @@ body {
 	padding-bottom: 0;
 	line-height: 0.5em;
 }
-.container {
+
+.block {
 	margin: auto;
 }
 img {

@@ -14,7 +14,6 @@ body {
 	background-color: #364455;
 	background-blend-mode: luminosity;
 	height: 550px;
-	padding-bottom: 20px;
 }
 #nav-bar li {
 
@@ -58,16 +57,83 @@ body {
 	padding-bottom: 0;
 	line-height: 0.5em;
 }
+#map {
+	color: white;
+	background-image: url('images/map.jpg');
+	background-size: cover;
+	background-position: center;
+	background-color: #549c99;
+	background-blend-mode: multiply;
+	height: 550px;
+}
+#map .drawLink {
+	border: 1px solid white;
+	border-radius: 35px;
+	width: 150px;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-size: 18px;
+}
+#map p{
+	font-weight: lighter;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	line-height: 0.3em;
+	font-size: 15px;
+}
+#map h2{
+	font-weight: 400;
+	margin-top: 20px;
+	padding-bottom: 5px;
+}
+#map a{
+	text-decoration: none;
+}
+#map .fa-pencil {
+	margin-top: 150px;
+	margin-bottom: 10px;
+}
 
+#offers {
+	color: white;
+	background-image: url('images/london.jpg');
+	background-size: cover;
+	height: 650px;
+}
+#offers .offerodd {
+	background-color: #549c99;
+	margin: 3rem 1rem;
+
+}
+#offers .offereven {
+	background-color: #7cb43e;
+	margin: 3rem 1rem;
+
+}
+#banner {
+	background-color: #3E5078;
+}
+#banner .logo {
+	max-height: 50%;
+	max-width: 50%;
+	padding: 2rem;
+}
+#footer {
+	background-color: #364455;
+}
+#footer li {
+	color: white;
+	list-style: none;
+	display: inline;
+	padding-right: 1rem;
+	font-weight: lighter;
+	font-size: 0.8rem;
+}
 .block {
 	margin: auto;
 }
 img {
-	width: 100%;
-	
+	width: 100%;	
 }
-.object-fit_fill { object-fit: fill }
-.object-fit_contain { object-fit: contain }
-.object-fit_cover { object-fit: cover }
-.object-fit_none { object-fit: none }
-.object-fit_scale-down { object-fit: scale-down }
